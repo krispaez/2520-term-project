@@ -13,7 +13,7 @@ export default {
     //       - construct a new Error("Username already taken");
     //       - set the statusCode of that error object to 400
     //       - throw the err
-    for (let dbUser of db.users) {
+    for (const dbUser of db.users) {
       if (dbUser.username === username) {
         const error = new Error('Username already taken');
         error.statusCode = 400;

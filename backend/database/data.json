@@ -1,4 +1,17 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "33bb4b31-47b9-4470-946a-f5224415c737",
+      "username": "kris",
+      "password": "passwd",
+      "profilePicture": ""
+    },
+    {
+      "id": "972198f8-52d1-4d7a-b0b1-66c2efb76285",
+      "username": "hello",
+      "password": "hi",
+      "profilePicture": "https://www.dictionary.com/e/wp-content/uploads/2019/04/Screen-Shot-2019-07-05-at-12.20.52-PM.png"
+    }
+  ],
   "tips": []
 }

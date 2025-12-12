@@ -13,6 +13,7 @@ export default {
     // TODO: get ahold of the db using readDb();
     const db = await readDb();
     // TODO: create a tip object containing { id: "some-random-id", title, userId }
+    
     // TODO: push the tip object into tips list in the database
     // TODO: write changes to database with await writeDb(db)
     // TODO: return the id of the created tip

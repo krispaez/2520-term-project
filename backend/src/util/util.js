@@ -1,9 +1,13 @@
+import jwt from "jsonwebtoken";
+
 const DEFAULT_HEADER = {
   "content-type": "application/json",
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
   "Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS",
 };
+
+const JWT_SECRET = "secret";
 
 function verifyToken(token) {
   try {
